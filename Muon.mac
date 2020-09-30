@@ -1,0 +1,346 @@
+# $Id: radioactive.mac 74917 2013-10-24 10:44:43Z ihrivnac $
+#
+#
+/control/verbose 2
+/run/verbose 2
+#
+/testhadr/det/setNbOfAbsor  42
+/testhadr/det/setAbsor 1 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 2 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 3 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 4 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 5 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 6 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 7 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 8 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 9 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 10 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 11 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 12 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 13 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 14 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 15 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 16 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 17 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 18 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 19 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 20 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 21 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 22 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 23 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 24 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 25 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 26 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 27 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 28 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 29 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 30 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 31 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 32 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 33 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 34 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 35 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 36 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 37 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 38 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 39 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 40 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 41 PlasticScintillator 2 cm
+/testhadr/det/setAbsor 42 PlasticScintillator 2 cm
+/testhadr/det/setSizeX 100 cm
+/testhadr/det/setSizeZ 5 cm
+#
+/testhadr/det/setNbOfScint 192
+/testhadr/det/setScint 1 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 2 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 3 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 4 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 5 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 6 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 7 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 8 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 9 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 10 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 11 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 12 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 13 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 14 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 15 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 16 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 17 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 18 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 19 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 20 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 21 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 22 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 23 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 24 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 25 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 26 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 27 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 28 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 29 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 30 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 31 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 32 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 33 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 34 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 35 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 36 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 37 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 38 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 39 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 40 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 41 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 42 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 43 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 44 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 45 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 46 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 47 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 48 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 49 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 50 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 51 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 52 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 53 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 54 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 55 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 56 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 57 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 58 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 59 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 60 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 61 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 62 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 63 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 64 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 65 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 66 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 67 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 68 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 69 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 70 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 71 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 72 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 73 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 74 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 75 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 76 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 77 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 78 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 79 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 80 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 81 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 82 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 83 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 84 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 85 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 86 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 87 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 88 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 89 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 90 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 91 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 92 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 93 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 94 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 95 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 96 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 97 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 98 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 99 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 100 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 101 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 102 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 103 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 104 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 105 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 106 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 107 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 108 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 109 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 110 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 111 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 112 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 113 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 114 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 115 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 116 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 117 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 118 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 119 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 120 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 121 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 122 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 123 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 124 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 125 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 126 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 127 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 128 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 129 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 130 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 131 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 132 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 133 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 134 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 135 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 136 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 137 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 138 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 139 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 140 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 141 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 142 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 143 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 144 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 145 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 146 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 147 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 148 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 149 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 150 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 151 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 152 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 153 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 154 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 155 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 156 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 157 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 158 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 159 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 160 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 161 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 162 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 163 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 164 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 165 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 166 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 167 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 168 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 169 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 170 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 171 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 172 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 173 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 174 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 175 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 176 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 177 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 178 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 179 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 180 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 181 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 182 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 183 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 184 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 185 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 186 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 187 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 188 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 189 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 190 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 191 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+/testhadr/det/setScint 192 G4_PLASTIC_SC_VINYLTOLUENE 1.9 mm
+
+#
+/testhadr/det/setSizeSX 50 cm
+/testhadr/det/setSizeSZ 0.7 cm
+#
+#/run/numberOfThreads 4
+/run/initialize
+#
+#/testhadr/gun/setDefault
+#/gun/particle mu+
+#/gun/ion 11 22
+#/gun/energy 3 GeV
+#/gun/position 0 15 0 cm
+#
+/analysis/setFileName 4_NewTypeOFRejection_LOG_OR_VetoVsJPET.root
+
+/analysis/h1/set 1 100 0. 15 MeV	#edep in Absorber/Veto
+/analysis/h1/set 2 100 0. 15 MeV	#
+/analysis/h1/set 3 100 0. 15 MeV	#
+/analysis/h1/set 4 100 0. 15 MeV	#
+/analysis/h1/set 5 100 0. 15 MeV	#
+/analysis/h1/set 6 100 0. 15 MeV	#
+/analysis/h1/set 7 100 0. 15 MeV	#
+/analysis/h1/set 8 100 0. 15 MeV	#
+/analysis/h1/set 9 100 0. 15 MeV	#
+/analysis/h1/set 10 100 0. 15 MeV	#
+/analysis/h1/set 11 100 0. 15 MeV	#
+/analysis/h1/set 12 100 0. 15 MeV	#
+/analysis/h1/set 13 100 0. 15 MeV	#
+/analysis/h1/set 14 100 0. 15 MeV	#
+/analysis/h1/set 15 100 0. 15 MeV	#
+/analysis/h1/set 16 100 0. 15 MeV	#
+/analysis/h1/set 17 100 0. 15 MeV	#
+/analysis/h1/set 18 100 0. 15 MeV	#
+/analysis/h1/set 19 100 0. 15 MeV	#
+/analysis/h1/set 20 100 0. 15 MeV	#
+/analysis/h1/set 21 100 0. 15 MeV	# 
+/analysis/h1/set 22 100 0. 15 MeV	#
+/analysis/h1/set 23 100 0. 15 MeV	#
+/analysis/h1/set 24 100 0. 15 MeV	#
+/analysis/h1/set 25 100 0. 15 MeV	#
+/analysis/h1/set 26 100 0. 15 MeV	#
+/analysis/h1/set 27 100 0. 15 MeV	#
+/analysis/h1/set 28 100 0. 15 MeV	#
+/analysis/h1/set 29 100 0. 15 MeV	#
+/analysis/h1/set 30 100 0. 15 MeV	#
+/analysis/h1/set 31 100 0. 15 MeV	#
+/analysis/h1/set 32 100 0. 15 MeV	#
+/analysis/h1/set 33 100 0. 15 MeV	#
+/analysis/h1/set 34 100 0. 15 MeV	#
+/analysis/h1/set 35 100 0. 15 MeV	#
+/analysis/h1/set 36 100 0. 15 MeV	#
+/analysis/h1/set 37 100 0. 15 MeV	#
+/analysis/h1/set 38 100 0. 15 MeV	#
+/analysis/h1/set 39 100 0. 15 MeV	#
+/analysis/h1/set 40 100 0. 15 MeV	#
+/analysis/h1/set 41 100 0. 15 MeV	# 
+/analysis/h1/set 42 100 0. 15 MeV	#
+/analysis/h1/set 43 100 0. 15 MeV	#
+/analysis/h1/set 44 100 0. 15 MeV	#
+/analysis/h1/set 45 100 0. 15 MeV	#
+/analysis/h1/set 46 100 0. 15 MeV	#
+/analysis/h1/set 47 100 0. 15 MeV	#
+/analysis/h1/set 48 100 0. 15 MeV	#
+/analysis/h1/set 49 100 0. 15 MeV	#
+/analysis/h1/set 50 100 0. 15 MeV	#
+/analysis/h1/set 51 100 0. 15 MeV	#
+/analysis/h1/set 52 100 0. 15 MeV	#
+/analysis/h1/set 53 100 0. 15 MeV	#
+/analysis/h1/set 54 100 0. 15 MeV	#
+/analysis/h1/set 55 100 0. 15 MeV	#
+/analysis/h1/set 56 100 0. 15 MeV	#
+/analysis/h1/set 57 100 0. 15 MeV	#
+/analysis/h1/set 58 100 -90. 90 degree  #
+/analysis/h1/set 59 100 0. 360 degree	#
+#/analysis/h1/set 60 100 0. 15 MeV/mm	#
+/analysis/h1/set 61 100 0. 180 degree	# 
+/analysis/h1/set 62 42 -1. 42 		# Id of Veto Scintillators
+/analysis/h1/set 63 192 -1. 192 	# Id of Jpet Scintallators
+/analysis/h1/set 64 100 -1 20 	# All Interactions on JPET
+#/analysis/h1/set 65 100 -1 15 	# Interactions on Veto (when JPET Scintallators will be hit 1,2,3...  times)
+/analysis/h1/set 66 100 0 20	# Interactions on JPET
+/analysis/h1/set 67 100 0 20	# Interactions on JPET
+/analysis/h1/set 81 100 -1 20 	#
+/analysis/h1/set 82 100 -1 20 	#
+/analysis/h1/set 95 100 -1 15 	#
+/analysis/h2/setX 1 100 -1 15   # X cryst
+/analysis/h2/setY 1 100 0 10000   # Y cryst
+/analysis/h2/setX 2 100 -5 5 m  # X cryst
+/analysis/h2/setY 2 100 -5 5 m  # Y cryst
+
+/analysis/h2/setX 3 100 -5 5 m  # Y cryst
+/analysis/h2/setY 3 100 -5 5 m  # Z cryst
+
+/analysis/h2/setX 4 100 -5 5 m  # X cryst
+/analysis/h2/setY 4 100 -5 5 m  # Z cryst
+
+/run/printProgress 50000
+#
+/run/beamOn 50000
+

@@ -1,0 +1,9 @@
+     =========================================================
+     Geant4 - an Object-Oriented Toolkit for Simulation in HEP
+     =========================================================
+
+                            Veto for J-PET
+                            --------------
+
+   Energy deposition of Muons with cosine square theta distribution and 4 GeV energy on Veto plastic and J_PET plastic scintillators.
+The program calculates Efficiency of detection in Veto and in J-PET per scintillator and for all the multiplicities, as well as,rejection  efficiencies.#See EventAction.cc   
